@@ -42,7 +42,6 @@ const handleUpdateUser = async (req, res) => {
     await userService.updateUserInfor(email, username, id);
 
     return res.redirect("/user");
-
 }
 
 const handleUserGetAPI = async (req, res) => {
